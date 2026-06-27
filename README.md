@@ -132,3 +132,10 @@ Look for where the mask ends. In this example, the mask ends at .128, so we can 
 | **Broadcast**       | `192.168.1.127`   | `11000000.10101000.00000001.10000000`    | Último IP (Inutilizável)   |
 
 # Resources
+
+* [What is TCP/IP?](https://www.techtarget.com/searchnetworking/definition/TCP-IP)
+* [What is the OSI model? The 7 layers of OSI explained ](https://www.techtarget.com/searchnetworking/definition/OSI)
+* [Understand TCP/IP addressing and subnetting basics](https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting?source=docs)
+* [What is a router?](https://www.cloudflare.com/learning/network-layer/what-is-a-router/)
+* [What is a subnet?](https://www.cloudflare.com/learning/network-layer/what-is-a-subnet/)
+* [Subnetting Mastery](https://www.youtube.com/playlist?list=PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOdExE)
