@@ -11,7 +11,9 @@ This project involves solving **networking problems** to make a network function
 * In this folder, run the index.html file (it is necessary to run using Google Chrome).
 * This interface should open in your web browser:
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/48592318-f9ef-4dcb-a11f-d7044671f973" />
+<div align="center">
+<img width="750" height="441" alt="image" src="https://github.com/user-attachments/assets/48592318-f9ef-4dcb-a11f-d7044671f973" />
+</div>
 
 As mentioned on the page:
 * You can practice if you input your login in the field, using your personal configuration.
@@ -44,7 +46,7 @@ invalid.
 Here is an example of what kind of exercise you will get:
 
 <div align="center">
-  <img width="1916" height="1069" alt="image" src="https://github.com/user-attachments/assets/90b977b4-114c-4c39-8108-992200c226d2" />
+  <img width="750" height="419" alt="image" src="https://github.com/user-attachments/assets/90b977b4-114c-4c39-8108-992200c226d2" />
 </div>
 
 To succeed, modify the unshaded fields until your network configuration is correct.
@@ -62,7 +64,9 @@ An IP Address is look like this: 192.168.0.1
 But don’t worry, you don’t need to memorize all the possibility of IP Address, there is conventions and rules that are commonly used.
 
 <div align="center">
-  <img width="1320" height="600" alt="image" src="https://github.com/user-attachments/assets/809a6994-0b61-414c-bf7c-2d3dd060f748" />
+  <img width="750" height="341" alt="image" src="https://github.com/user-attachments/assets/809a6994-0b61-414c-bf7c-2d3dd060f748" />
+
+  <sup>Each device on a network has a private IP address and the router has a public IP address to communicate with the rest of the Internet.</sup>
 </div>
 
 Furthermore there are a few different classes of IP addresses. These classes of IP addresses are a kind of division made according to the amount of bits used to identify the elements of the networks. The address classes are divided into A, B, C, D, and E.
@@ -90,7 +94,7 @@ The secret here is that the bits of a mask can only consist of contiguous sequen
 So, settings the contiguous senquences of 1s, the subnet masks show us the separation of network and host, see the image bellow.
 
 <div align="center">
-  <img width="2432" height="1510" alt="image" src="https://github.com/user-attachments/assets/8b6d2fdf-de40-48c2-b198-41454351d229" />
+  <img width="750" height="469" alt="image" src="https://github.com/user-attachments/assets/8b6d2fdf-de40-48c2-b198-41454351d229" />
 </div>
 
 There is two common types of notation CIDR and Dotted-Decimal
@@ -112,10 +116,11 @@ This is the traditional way of writing a subnet mask. It mimics the structure of
 # How they work together?
 
 **Let’s go to a straightforward example.**
-
-IP:   11000000 . 10101000 . 00000001 . 00001010  (192.168.1.10)
-MASK: 11111111 . 11111111 . 11111111 . 10000000  (/24 ou 255.255.255.128)
-      |---------- REDE -------------|  |-HOST-|
+||||
+|---|---|---|
+|IP:  | 11000000 . 10101000 . 00000001 . 00001010 | (192.168.1.10)|
+|MASK:| 11111111 . 11111111 . 11111111 . 10000000 | (/24 ou 255.255.255.128)|
+|     |---------------- REDE -------------------    ----HOST----|  ||
 
 Look for where the mask ends. In this example, the mask ends at .128, so we can subtract this value from 256, which results in 128. Therefore, there are two subnets in the 192.168.1.0 block, starting at 192.168.1.0 and 192.168.1.128. In this case, the IP 192.168.1.10 belongs to the 192.168.1.0 subnet and is structured as below:
 
